@@ -7,8 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
-
-  <title>Registro</title>
+  <link rel="icon" type="image/png" href="../images/sonrisa.png"/>
+  
+  <title>Editar</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -28,8 +29,9 @@
         <img src="../images/amazon-logistics.png" width="200">
       </div>
     <div class="list-group list-group-flush">
-        <a href="../index.php" class="list-group-item list-group-item-action bg-light">Empleados</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Paquetes</a>
+        <a href="empleados.php" class="list-group-item list-group-item-action bg-light">Empleados</a>
+        <a href="drivers.php" class="list-group-item list-group-item-action bg-light">Conductores</a>
+        <a href="rutas.php" class="list-group-item list-group-item-action bg-light">Rutas</a>
 
       </div>
     </div>
@@ -72,11 +74,15 @@
           <br>
         <form>
             <div class="form-row">
-                <div class="form-group col-md-6">
+            <div class="form-group col-md-4">
+                    <label>ID</label>
+                    <input type="id" class="form-control" id="inputID">
+                </div>
+                <div class="form-group col-md-4">
                 <label>Nombre</label>
                 <input type="nombre" class="form-control" id="inputNombre">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group col-md-4">
                 <label>Apellidos</label>
                 <input type="apellidos" class="form-control" id="inputApellidos">
                 </div>

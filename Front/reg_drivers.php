@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <link rel="icon" type="image/png" href="../images/sonrisa.png"/>
 
-  <title>Rutas</title>
+  <title>Registro</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -31,7 +31,7 @@
     <div class="list-group list-group-flush">
         <a href="empleados.php" class="list-group-item list-group-item-action bg-light">Empleados</a>
         <a href="drivers.php" class="list-group-item list-group-item-action bg-light">Conductores</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Rutas</a>
+        <a href="rutas.php" class="list-group-item list-group-item-action bg-light">Rutas</a>
 
       </div>
     </div>
@@ -71,31 +71,42 @@
       </nav>
 
       <div class="container-fluid">
-      <hr>
-      <center>
-        <a href="reg_drivers.php" class="btn btn-success">Registro</a>
-        <a href="edit_drivers.php"class="btn btn-warning">Editar</a>
-        <a class="btn btn-danger">Eliminar</a>
-      </center>
-      <hr>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                <th scope="col">#Ruta</th>
-                <th scope="col">Conductor</th>
-                <th scope="col">ID conductor</th>
-                <th> </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <th scope="row">1</th>
-                <td>Leslie</td>
-                <td>190298</td>
-                <td><a href="detalleruta.php">Ver ruta</td>
-                </tr>
-            </tbody>
-            </table>
+          <br>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                <label>Nombre</label>
+                <input type="nombre" class="form-control" id="inputNombre">
+                </div>
+                <div class="form-group col-md-6">
+                <label>Apellidos</label>
+                <input type="apellidos" class="form-control" id="inputApellidos">
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Contraseña</label>
+                <input type="text" class="form-control" id="inputContraseña">
+            </div>
+            <div class="form-group">
+                <label>RFC</label>
+                <input type="text" class="form-control" id="inputRFC" >
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                <label>Turno</label>
+                <select id="inputState" class="form-control">
+                    <option selected>Elegir...</option>
+                    <option>Nocturno</option>
+                    <option>Vespertino</option>
+                    <option>Matutino</option>
+                </select>
+                </div>
+            </div>
+            <center>
+                <button type="submit" class="btn btn-primary">Registrar</button>
+                <a class="btn btn-primary" href="javascript:history.back()">Regresar</a>
+            </center>
+            </form>
     </div>
     <!-- /#page-content-wrapper -->
 

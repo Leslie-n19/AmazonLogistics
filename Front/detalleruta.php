@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="icon" type="image/png" href="../images/sonrisa.png"/>
 
   <title>Detalle de ruta</title>
 
@@ -29,6 +30,7 @@
       </div>
     <div class="list-group list-group-flush">
         <a href="empleados.php" class="list-group-item list-group-item-action bg-light">Empleados</a>
+        <a href="drivers.php" class="list-group-item list-group-item-action bg-light">Conductores</a>
         <a href="rutas.php" class="list-group-item list-group-item-action bg-light">Rutas</a>
 
       </div>

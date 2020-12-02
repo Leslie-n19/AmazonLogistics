@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <link rel="icon" type="image/png" href="../images/sonrisa.png"/>
 
-  <title>Rutas</title>
+  <title>Amazon Logistics</title>
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -25,13 +25,13 @@
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading"> 
+      <div class="sidebar-heading">
         <img src="../images/amazon-logistics.png" width="200">
       </div>
-    <div class="list-group list-group-flush">
-        <a href="empleados.php" class="list-group-item list-group-item-action bg-light">Empleados</a>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Empleados</a>
         <a href="drivers.php" class="list-group-item list-group-item-action bg-light">Conductores</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Rutas</a>
+        <a href="rutas.php" class="list-group-item list-group-item-action bg-light">Rutas</a>
 
       </div>
     </div>
@@ -78,24 +78,29 @@
         <a class="btn btn-danger">Eliminar</a>
       </center>
       <hr>
-        <table class="table table-striped">
-            <thead>
-                <tr>
-                <th scope="col">#Ruta</th>
-                <th scope="col">Conductor</th>
-                <th scope="col">ID conductor</th>
-                <th> </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <th scope="row">1</th>
-                <td>Leslie</td>
-                <td>190298</td>
-                <td><a href="detalleruta.php">Ver ruta</td>
-                </tr>
-            </tbody>
-            </table>
+      <table class="table">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido</th>
+            <th scope="col">RFC</th>
+            <th scope="col">Modelo de auto</th>
+            <th scope="col">Placas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">261098</th>
+            <td>Heriberto</td>
+            <td>Hurtado Valle</td>
+            <td>HEHV9810263D8</td>
+            <td>Versa</td>
+            <td>JDL-93-30</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
     </div>
     <!-- /#page-content-wrapper -->
 

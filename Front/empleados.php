@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
+  <link rel="icon" type="image/png" href="../images/sonrisa.png"/>
 
   <title>Amazon Logistics</title>
 
@@ -28,7 +29,8 @@
         <img src="../images/amazon-logistics.png" width="200">
       </div>
       <div class="list-group list-group-flush">
-        <a href="" class="list-group-item list-group-item-action bg-light">Empleados</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Empleados</a>
+        <a href="drivers.php" class="list-group-item list-group-item-action bg-light">Conductores</a>
         <a href="rutas.php" class="list-group-item list-group-item-action bg-light">Rutas</a>
 
       </div>
@@ -71,8 +73,8 @@
       <div class="container-fluid">
       <hr>
       <center>
-        <a href="Front/reg_empleados.php" class="btn btn-success">Registro</a>
-        <a class="btn btn-warning">Editar</a>
+        <a href="reg_empleados.php" class="btn btn-success">Registro</a>
+        <a href="edit_empleados.php"class="btn btn-warning">Editar</a>
         <a class="btn btn-danger">Eliminar</a>
       </center>
       <hr>
